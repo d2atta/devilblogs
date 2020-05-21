@@ -4,10 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hi folks, I am Debarghya Datta, a BTech student from the Kalinga Institute of Industrial Technology. I am a Data Science enthusiast and is following this field for quite a time. I always wanted to know the machine learning concepts from the root, so I started learning Maths and Statistics, which forms the base for any Machine Learning algorithms. I am on a journey of learning Data Science through various MOOCs and by reading a bunch of articles, if you want to learn something out of it, you can tag along.  
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+You can contact me on any handles given below.:relaxed: 
