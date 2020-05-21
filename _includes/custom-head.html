@@ -5,13 +5,6 @@ Placeholder to allow defining custom head, in principle, you can add anything he
 2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 
-<!--copied from code-pen!-->
-<div class="container">
-    <input class="container_toggle" type="checkbox" id="switch" name="mode">
-    <label for="switch">Toggle</label>
-</div>
-<!--copied from code-pen!-->
-
 {%- include favicons.html -%}
 {% seo %}
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -57,27 +50,6 @@ Placeholder to allow defining custom head, in principle, you can add anything he
 {% endif %}
 
 <script>
-    //copied from code-pen
-    var checkbox = document.querySelector("input[name=mode]");
-
-    checkbox.addEventListener("change", function () {
-        if (this.checked) {
-            trans();
-            document.documentElement.setAttribute("data-theme", "dark");
-        } else {
-            trans();
-            document.documentElement.setAttribute("data-theme", "light");
-        }
-    });
-
-    let trans = () => {
-        document.documentElement.classList.add("transition");
-        window.setTimeout(() => {
-            document.documentElement.classList.remove("transition");
-        }, 1000);
-    };
-    //end
-
     function wrap_img(fn) {
         if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
             var elements = document.querySelectorAll(".post img");
