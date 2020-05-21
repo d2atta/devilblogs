@@ -15,14 +15,7 @@
 <script type="application/ld+json">
 {"description":"A simple blog made using fastpages","@type":"WebPage","headline":"Tags","url":"https://devildev98.github.io/devilblogs/categories/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/devilblogs/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://devildev98.github.io/devilblogs/feed.xml" title="DevilBlogs" />
-
-<!--copied from code-pen!-->
-<div class="container">
-    <input class="container_toggle" type="checkbox" id="switch" name="mode">
-    <label for="switch">Toggle</label>
-</div>
-<!--copied from code-pen!--><link rel="shortcut icon" type="image/x-icon" href="/devilblogs/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<link rel="stylesheet" href="/devilblogs/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://devildev98.github.io/devilblogs/feed.xml" title="DevilBlogs" /><link rel="shortcut icon" type="image/png" href="/devilblogs/images/favicon-32x32.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Tags | DevilBlogs</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Tags" />
@@ -73,27 +66,6 @@
 
 
 <script>
-    //copied from code-pen
-    var checkbox = document.querySelector("input[name=mode]");
-
-    checkbox.addEventListener("change", function () {
-        if (this.checked) {
-            trans();
-            document.documentElement.setAttribute("data-theme", "dark");
-        } else {
-            trans();
-            document.documentElement.setAttribute("data-theme", "light");
-        }
-    });
-
-    let trans = () => {
-        document.documentElement.classList.add("transition");
-        window.setTimeout(() => {
-            document.documentElement.classList.remove("transition");
-        }, 1000);
-    };
-    //end
-
     function wrap_img(fn) {
         if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
             var elements = document.querySelectorAll(".post img");
